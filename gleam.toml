@@ -1,0 +1,16 @@
+name = "ior"
+version = "1.0.0"
+
+description = "Ior (inclusive or) data structure implementation"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "xplosunn", repo = "ior" }
+links = []
+
+# For a full reference of all the available options, you can have a look at
+# https://gleam.run/writing-gleam/gleam-toml/. 
+
+[dependencies]
+gleam_stdlib = "~> 0.36 or ~> 1.0"
+
+[dev-dependencies]
+gleeunit = "~> 1.0"
